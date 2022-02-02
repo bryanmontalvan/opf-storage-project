@@ -1,7 +1,10 @@
-# 2021 Spring Co-op Project
-#### Improvisation of Storage Monitoring in the Operate First Environment 
+# What you need to know about Operate First
 
-The [Operate First](https://www.operate-first.cloud/) enviroment is hybrid cloud environment with the purpose of enabling smaller developing projects and research projects to have access to a production level cloud environment.
+[Operate First](https://www.operate-first.cloud/) is an open-source initative with the goal of bringing software under development to a production cloud. It is a way of connecting all stakeholders of building, deploying, and operating software; similar to an open source community.
+
+The [Operate First Enviroment](https://github.com/operate-first/apps) is hybrid cloud environment with the purpose of having projects bring their software to a production cloud enviroment. 
+
+(Please check out the following link for more detailed a better explanation [here](https://youtu.be/XpFeNEzlh70))
 
 ### What exactly is Operate First?
 - Operate First manages OpenShift Clusters
@@ -35,3 +38,7 @@ to both Thanos and Grafana, but also sends metrics directly to Grafana for direc
 
 ### Explanation
 Each cluster has a [Kafka Producer](https://docs.confluent.io/platform/current/clients/producer.html#:~:text=Concepts,the%20leader%20of%20that%20partition.), which is a cluster logging operator, which fetches logs from each container. The instance of [Kafka](https://kafka.apache.org/) that is deployed on the `MOC/Smaug cluster` absorbs those stats and then `Loki` takes those logs and sends those logs to both `Grafana` and its very own Object store.
+
+## Resources:
+OPF Docs: https://www.operate-first.cloud/apps/content/README.html \
+Original Issue: https://github.com/operate-first/SRE/issues/445
