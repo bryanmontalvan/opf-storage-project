@@ -24,9 +24,10 @@ I have to my disposal. Afterwards I'll only take the metrics that users would de
 - Understand your intended audience
 
 Once I have a starting idea as to what should be visualized I'll use the visulization tool, [Grafana](https://grafana.com/grafana/dashboards/), to create visulizations which drive my projects intentions. Making the users life easier by knowing the state of their project's storage.
-**Metrics:**
-`OpenShift -> Prometheus or Thanos -> Grafana`
-**Logs:**
+
+**Metrics:**\
+`OpenShift -> Prometheus or Thanos -> Grafana`\
+**Logs:**\
 `OpenShift -> Loki -> Grafana`
 
 ### Predictable Consumption Model (PCM):
