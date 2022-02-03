@@ -8,8 +8,8 @@ The [Operate First Enviroment](https://github.com/operate-first/apps) is hybrid 
 
 ### What exactly is Operate First?
 - Operate First manages OpenShift Clusters
-- Uses GitOps workflow to allow quick onboarding for projects(namespaces)
-- Allows Data Scientist to focus more on their work, than their enviroment 
+- Uses GitOps workflow where the repository is the truth, and to allow quick onboarding for projects(namespaces)
+- Allows Data Scientist/users to focus more on their work than their enviroment 
 
 | Buzz Words  | Definition |
 | ------------- | ------------- |
