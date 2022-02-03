@@ -42,3 +42,7 @@ Each cluster has a [Kafka Producer](https://docs.confluent.io/platform/current/c
 ## Resources:
 OPF Docs: https://www.operate-first.cloud/apps/content/README.html \
 Original Issue: https://github.com/operate-first/SRE/issues/445
+
+```
+Note: If there's any wrong details or information please contact me, or submit an issue. Thanks!
+```
