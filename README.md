@@ -1,5 +1,5 @@
 # 2021 Spring Co-op Project
-**Title**: Improvisation of Storage Monitoring in the Operate First Environment \
+**Title**: Expansion of Storage Monitoring in the Operate First Environment \
 **Co-op**: Bryan Montalvan \
 **School**: University of Massachussetts Lowell 
 
