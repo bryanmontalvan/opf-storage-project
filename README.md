@@ -4,7 +4,7 @@
 **School**: University of Massachussetts Lowell 
 
 ## My Project Proposal
-My project for this spring period is to expand the way we currently monitor storage metrics in the [Operate First Enviroment](https://www.operate-first.cloud/). This will be done by creating a grafana dashboard which will visualize storage data by cluster and its respective namespace.
+My project for this spring period is to expand the way we currently monitor storage metrics in the [Operate First Environment](https://www.operate-first.cloud/). This will be done by creating a grafana dashboard which will visualize storage data by cluster and its respective namespace.
 
 Whether you are a user or administrator, having the ability to view your cluster's storage metrics and logs is a great asset to understand
 the health of your application's deployment. Knowing if your [PV](https://kubernetes.io/docs/concepts/storage/persistent-volumes/) is about to max out on resources is crucial on knowing when to request more storage. Another example is finding out what is using the most resources on your namespace. 
