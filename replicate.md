@@ -54,6 +54,14 @@ spec:
 ```
 After following the guide you should be set in having your dashboard pull request all set
 
+## Expanding the storage dashboard
+If you want to expand the storage dashboards created or change the landing page here are some useful links,
+| Dashboard | Location | Pull Request |
+| ------------- | ------------- | ------------- |
+| Landing page | [apps/grafana/overlays/moc/smaug/landingpage-dashboard-configmap.yaml](https://github.com/operate-first/apps/blob/master/grafana/overlays/moc/smaug/landingpage-dashboard-configmap.yaml) | [PR #1590](https://github.com/operate-first/apps/pull/1590)|
+| Namespace Storage Overview | WIP | [PR #1694](https://github.com/operate-first/apps/pull/1694) |
+| Cluster Storage Overview | WIP | WIP |
+
 ### Conclusion
 At this point consider yourself a Grafana master. You now know how to create, save, export, and deploy a dashboard to our grafana instance. Here is a list of links if you want to expand your understanding of Grafana
 - [Grafana Docs](https://grafana.com/docs/)
