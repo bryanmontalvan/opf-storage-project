@@ -58,9 +58,9 @@ After following the guide you should be set in having your dashboard pull reques
 If you want to expand the storage dashboards created or change the landing page here are some useful links,
 | Dashboard | Location | Pull Request |
 | ------------- | ------------- | ------------- |
-| Landing page | [apps/grafana/overlays/moc/smaug/landingpage-dashboard-configmap.yaml](https://github.com/operate-first/apps/blob/master/grafana/overlays/moc/smaug/landingpage-dashboard-configmap.yaml) | [PR #1590](https://github.com/operate-first/apps/pull/1590)|
+| [Landing page](https://grafana.operate-first.cloud/?orgId=1) | [apps/grafana/overlays/moc/smaug/landingpage-dashboard-configmap.yaml](https://github.com/operate-first/apps/blob/master/grafana/overlays/moc/smaug/landingpage-dashboard-configmap.yaml) | [PR #1590](https://github.com/operate-first/apps/pull/1590)|
 | Namespace Storage Overview | WIP | [PR #1694](https://github.com/operate-first/apps/pull/1694) |
-| Cluster Storage Overview | WIP | WIP |
+| [Cluster Storage Overview](https://grafana.operate-first.cloud/d/Z7hD22v7k/cluster-storage-overview?orgId=1&from=1650905166267&to=1650908766267) | [grafana/overlays/moc/smaug/dashboards/cluster-management/cluster-storage-overview.yaml](https://github.com/operate-first/apps/blob/master/grafana/overlays/moc/smaug/dashboards/cluster-management/cluster-storage-overview.yaml) | [PR #1879](https://github.com/operate-first/apps/pull/1879) |
 
 ### Conclusion
 At this point consider yourself a Grafana master. You now know how to create, save, export, and deploy a dashboard to our grafana instance. Here is a list of links if you want to expand your understanding of Grafana
