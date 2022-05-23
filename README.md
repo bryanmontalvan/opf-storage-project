@@ -41,11 +41,7 @@ flowchart LR;
 
 
 ### Predictable Consumption Model (PCM):
-Creating a Predictable Consumption Model will be the second task of this whole project, with my current vision in my mind.
-I will fetch logs from both `Prometheus(for metrics)` and `Loki(for logs)`, to show users when they may be close to running out of storage
-and at the same time letting users know if they're requesting too much data(logs).
-
-This complementary idea is in its rough draft phase and will be focused on when the `Storage Dashboard` is closer to completion.
+(N/A)
 
 ## Note:
 If you are unfamilar with Operate First, please take a look at a simple introductary [doc](about-opf.md) to better understand what the initative is and how
