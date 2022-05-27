@@ -31,14 +31,6 @@ flowchart LR;
   Prometheus --> Grafana
   Thanos --> Grafana
 ```
-### Logs
-```mermaid
-flowchart LR;
-  OpenShift-Cluster --> Kafka-Operator
-  Kafka-Operator --> Loki
-  Loki --> Grafana
-```
-
 
 ### Predictable Consumption Model (PCM):
 (N/A)
